@@ -1,3 +1,4 @@
+#array
 student_list = ["mohit", "pawan", "saurabh"]
 student_list.append("Himanshu")
 "mohit" in student_list == True
@@ -24,6 +25,12 @@ print(student.keys())
 
 #to print values
 print(student.values());
+
+# Exception handling
+try:
+    last_name=student["lastname"];
+except Exception:
+    print("There is no such key");
 
 print("Hello world")
 number=5;
